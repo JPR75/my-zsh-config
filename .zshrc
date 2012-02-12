@@ -32,7 +32,7 @@ zstyle ':vcs_info:git*' formats "%{$fg_bold[blue]%}[%s] %{$fg_bold[green]%}(%b)%
 zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' enable git
 precmd() {
-    vcs_info
+  vcs_info
 
   local STATUS="`git status 2>&1`"
   if [[ "$STATUS" == *'Not a git repository'* ]] then
