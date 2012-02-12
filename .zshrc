@@ -11,7 +11,7 @@ zstyle :compinstall filename '/home/JPR75/.zshrc'
 
 autoload -Uz compinit
 compinit
-#
+
 alias ls='ls --color=auto --group-directories-first'
 alias ll='ls -lh --color=auto --group-directories-first'
 alias la='ls -a --color=auto --group-directories-first'
