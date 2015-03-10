@@ -44,5 +44,4 @@ precmd() {
 setopt prompt_subst
 
 export PS1=$'\n'"%{$fg[green]%}"-----------------------------------------------------------------------$'\n''${GITINFO}'"%{$fg[green]%}""------ [%~] %*"$'\n'-----------------------------------------------------------------------"%{$reset_color%}"$'\n\n\n'"%{$fg_bold[green]%}%n@%m:%#%{$reset_color%} "
-
 # End of lines added by compinstall
